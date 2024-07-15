@@ -1,0 +1,17 @@
+#参数-- vision_test_0603.cpp
+
+target_x: 0.5
+target_y: 0
+
+range_min: 0
+range_max: 359
+
+fly_height: 1.2
+
+search_safe_distance: 0.4
+
+#视觉
+scan_thresh: 0.30
+arrival_thresh: 0.05
+reload_patience: 20
+no_target_patience: 200

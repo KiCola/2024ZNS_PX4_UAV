@@ -1,0 +1,7 @@
+<launch>
+	<!-- run the vision_test_0603.cpp -->
+	<node pkg="px4_command" type="vision_test" name="vision_test" output="screen">
+		<!-- load blacklist, config -->
+                <rosparam command="load" file="$(find px4_command)/config/vision_test_0603.yaml" />
+	</node>
+</launch>
