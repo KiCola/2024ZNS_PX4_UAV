@@ -1,3 +1,8 @@
+#include <vector>
+#include <numeric>
+
+//vector<float> filtered_queue_y;
+//vector<float> filtered_queue_z;
 float filtered_queue_y[10];
 float filtered_queue_z[10];
 float filtered_cir_y;

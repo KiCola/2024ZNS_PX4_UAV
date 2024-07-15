@@ -1,0 +1,29 @@
+#参数--test_go_circ.cpp
+range_min: 0
+range_max: 359
+
+fly_height: 0.95
+
+initial_target_x: 1.7 #到圆环面前的位置
+initial_target_y: 0
+
+target_x: 3.6 #最终识别降落位置
+target_y: 0
+
+presetCir: [2.1 , 0] #圆环坐标
+
+max_detection_distance: 0.7
+min_detection_distance: 0.3
+near_min_distance: 0.3
+
+#穿环
+circ_adjust_patience: 50
+inaccuracy_tolerance: 0.1
+
+
+search_safe_distance: 0.4
+#视觉
+scan_thresh: 0.30
+arrival_thresh: 0.05
+reload_patience: 20
+no_target_patience: 200
